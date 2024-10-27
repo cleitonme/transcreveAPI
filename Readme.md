@@ -12,6 +12,11 @@ Antes de usar a API, certifique-se de ter instalado as dependências do projeto 
 
 **Também instale o FFMPEG!**
 
+### Docker
+
+```docker build -t transcreveapi .```
+```docker run --name transcreveapi -itd -p 5000:5000 transcreveapi:latest```
+
 ### Endpoint
 
 A API possui um único endpoint em `/transcrever`, que pode ser usado para enviar arquivos de áudio para transcrição.
